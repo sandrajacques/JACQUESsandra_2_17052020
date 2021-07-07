@@ -99,6 +99,7 @@ i.fas.fa-map-marker-alt {
   height: 500px;
   padding: 10px 10px;
   border-radius: 3%;
+  margin: 20px;
 }
 .hebergements-marseille {
   margin: 1rem;
@@ -129,6 +130,8 @@ i.fas.fa-map-marker-alt {
   width: 422px;
   background-color: #f2f2f2;
   border-radius: 3%;
+  padding: 10px;
+  align-items: center;
 }
 .populaires img {
   width: 125px;
@@ -136,7 +139,6 @@ i.fas.fa-map-marker-alt {
   border-top-left-radius: 5%;
   border-bottom-left-radius: 5%;
 }
-
 #cardsoleil {
   width: 344px;
   height: 146px;
@@ -151,6 +153,9 @@ i.fas.fa-map-marker-alt {
   width: 344px;
   height: 146px;
   background-color: white;
+}
+.card-populaires{
+  display: flex;
 }
 .titre-populaire img {
   width: 125px;
