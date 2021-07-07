@@ -96,10 +96,11 @@ i.fas.fa-map-marker-alt {
 .hebergements {
   background-color: #f2f2f2;
   width: 880px;
-  height: 500px;
+  height: 560px;
   padding: 10px 10px;
   border-radius: 3%;
   margin: 20px;
+  
 }
 .hebergements-marseille {
   margin: 1rem;
@@ -107,6 +108,7 @@ i.fas.fa-map-marker-alt {
 #conteneur1 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card {
@@ -116,6 +118,7 @@ i.fas.fa-map-marker-alt {
   border: solid #c5c5c5;
   background-color: white;
   padding: 0.2rem 0.2rem;
+  margin: 10px 0;
 }
 .card img {
   height: 115px;
@@ -128,10 +131,12 @@ i.fas.fa-map-marker-alt {
   display: flex;
   flex-direction: column;
   width: 422px;
+  height: 560px;
   background-color: #f2f2f2;
   border-radius: 3%;
   padding: 10px;
   align-items: center;
+  margin: 20px;
 }
 .populaires img {
   width: 125px;
@@ -157,16 +162,23 @@ i.fas.fa-map-marker-alt {
 .card-populaires{
   display: flex;
 }
-.titre-populaire img {
-  width: 125px;
-  height: 130px;
+.titre-populaire  {
+  width: 340px;
+  display: flex;
+  justify-content:space-between ;
 }
-
+.titre-populaire i{
+  background-color:#f2f2f2;
+  padding: 0em;
+}
 /*activite à marseille*/
-.activites {
+.activites{
+  margin: 30px 20px;
+  overflow: hidden;
+}
+.activites-grid {
   display: grid;
   grid-template-columns: 0.9fr 0.9fr 0.9fr 0.9fr;
- 
   grid-template-areas:
     'c1 c2 c4 c5'
     'c1 c2 c4 c5'
@@ -223,14 +235,14 @@ i.fas.fa-map-marker-alt {
 #card4 img {
   grid-area: c4;
   width: 300px;
-  height: 444px;
+  height: 380px;
   border-radius: 5%;
 }
 #card5 {
   grid-area: c5;
   width: 304px;
   height: 197px;
-   border-radius: 6%;
+  border-radius: 6%;
   border:solid 1px #f2f2f2;
 }
 #card5 img {
@@ -243,7 +255,7 @@ i.fas.fa-map-marker-alt {
   grid-area: c6;
   width: 303px;
   height: 212px;
-   border-radius: 6%;
+  border-radius: 6%;
   border:solid 1px #f2f2f2;
 }
 #card6 img {
@@ -253,16 +265,12 @@ i.fas.fa-map-marker-alt {
   border-radius: 5%;
 }
 
-div > div .activites {
-  display: block;
-  margin: 0.1rem;
-  border-radius: 2rem;
-}
 footer {
   background-color: #f2f2f2;
   width: 1426px;
   height: 130px;
   padding-inline: 30px;
+  margin-top: 30px;
 }
 #pied-de-page {
   display: flex;
@@ -271,7 +279,7 @@ footer {
   justify-items: flex-start;
 }
 @media (max-width: 600px) {
-  .activites {
+  .activites-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
@@ -287,5 +295,19 @@ footer {
 @media (max-width: 375px) {
   .titre-filtre {
     width: 100%;
+  }
+  .hebergements{
+    height: auto;
+  }
+  .activites-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'c1'
+      'c2'
+      'c3'
+      'c4'
+      'c5'
+      'c6';
   }
 }
