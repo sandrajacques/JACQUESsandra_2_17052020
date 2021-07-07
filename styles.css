@@ -1,0 +1,286 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+
+button {
+  background-color: #0065fc;
+  color: aliceblue;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  height: 35px;
+  border-color: #0065fc;
+}
+#conteneur {
+  display: flex;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  padding: 1rem;
+}
+.logo {
+  width: 96px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+h1 {
+  font-size: 1rem;
+}
+input {
+  width: 236px;
+  height: 30px;
+}
+i.fas.fa-map-marker-alt {
+  background-color: #eeeeee;
+  padding: 8px;
+  font-size: 140%;
+  border-radius: 10px 1px 1px 10px;
+  border: 1px solid;
+  height: 18px;
+}
+
+.filtres {
+  display: flex;
+  flex-wrap: wrap;
+}
+.titre-filtres {
+  margin: 1rem;
+  padding: 1rem;
+}
+.filtre {
+  margin: 1rem;
+  border: solid #f2f2f2;
+  border-radius: 2rem;
+}
+.fas {
+  background-color: #cadded;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 0;
+}
+.nom-filtre {
+  padding: 1rem;
+  font-size: 14px;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info h4 {
+  margin-left: 1rem;
+}
+.info .fas {
+  border: solid 1px #f2f2f2;
+  background-color: white;
+  color: blue;
+  padding: 0.6rem 0.4rem;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.bloc1 {
+  display: flex;
+  width: 100%;
+}
+/*hébergements à marseille*/
+.hebergements {
+  background-color: #f2f2f2;
+  width: 880px;
+  height: 500px;
+  padding: 10px 10px;
+  border-radius: 3%;
+}
+.hebergements-marseille {
+  margin: 1rem;
+}
+#conteneur1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 200px;
+  width: 246px;
+  border-radius: 5%;
+  border: solid #c5c5c5;
+  background-color: white;
+  padding: 0.2rem 0.2rem;
+}
+.card img {
+  height: 115px;
+  width: 235px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+/*les plus populaires*/
+.populaires {
+  display: flex;
+  flex-direction: column;
+  width: 422px;
+  background-color: #f2f2f2;
+  border-radius: 3%;
+}
+.populaires img {
+  width: 125px;
+  height: 130px;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+
+#cardsoleil {
+  width: 344px;
+  height: 146px;
+  background-color: white;
+}
+#cardcoeur {
+  width: 344px;
+  height: 146px;
+  background-color: white;
+}
+#cardbleu {
+  width: 344px;
+  height: 146px;
+  background-color: white;
+}
+.titre-populaire img {
+  width: 125px;
+  height: 130px;
+}
+
+/*activite à marseille*/
+.activites {
+  display: grid;
+  grid-template-columns: 0.9fr 0.9fr 0.9fr 0.9fr;
+ 
+  grid-template-areas:
+    'c1 c2 c4 c5'
+    'c1 c2 c4 c5'
+    'c1 c2 c4 c5'
+    'c1 c2 c4 c6'
+    'c1 c3 c4 c6'
+    'c1 c3 c4 c6';
+  width: 1342px;
+}
+#card1 {
+  grid-area: c1;
+  width: 300px;
+  height: 430px;
+  border-radius: 6%;
+  border:solid 1px #f2f2f2;
+}
+#card1 img {
+  width: 300px;
+  height: 380px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+#card2 {
+  grid-area: c2;
+  width: 260px;
+  height: 190px;
+  border-radius: 6%;
+  border:solid 1px #f2f2f2;
+}
+#card2 img {
+  width: 260px;
+  height: 150px;
+  border-radius: 5%;
+}
+#card3 {
+  grid-area: c3;
+  width: 260px;
+  height: 190px;
+  border-radius: 6%;
+  border:solid 1px #f2f2f2;
+}
+#card3 img {
+  width: 260px;
+  height: 155px;
+  border-radius: 5%;
+}
+#card4 {
+  grid-area: c4;
+  width: 300px;
+  height: 430px;
+  border-radius: 6%;
+  border:solid 1px #f2f2f2;
+}
+#card4 img {
+  grid-area: c4;
+  width: 300px;
+  height: 444px;
+  border-radius: 5%;
+}
+#card5 {
+  grid-area: c5;
+  width: 304px;
+  height: 197px;
+   border-radius: 6%;
+  border:solid 1px #f2f2f2;
+}
+#card5 img {
+  grid-area: c5;
+  width: 304px;
+  height: 197px;
+  border-radius: 5%;
+}
+#card6 {
+  grid-area: c6;
+  width: 303px;
+  height: 212px;
+   border-radius: 6%;
+  border:solid 1px #f2f2f2;
+}
+#card6 img {
+  grid-area: c6;
+  width: 303px;
+  height: 212px;
+  border-radius: 5%;
+}
+
+div > div .activites {
+  display: block;
+  margin: 0.1rem;
+  border-radius: 2rem;
+}
+footer {
+  background-color: #f2f2f2;
+  width: 1426px;
+  height: 130px;
+  padding-inline: 30px;
+}
+#pied-de-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-items: flex-start;
+}
+@media (max-width: 600px) {
+  .activites {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'c1'
+      'c2'
+      'c3'
+      'c4'
+      'c5'
+      'c6';
+  }
+}
+
+@media (max-width: 375px) {
+  .titre-filtre {
+    width: 100%;
+  }
+}
