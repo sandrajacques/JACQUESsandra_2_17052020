@@ -140,14 +140,17 @@ i.fas.fa-map-marker-alt {
 /*hébergements à marseille*/
 .hebergements {
   background-color: #f2f2f2;
-  width: 866px;
-  height: 625px;
+  width: 880px;
+  height: 638px;
   padding: 10px 10px;
   border-radius: 3%;
   margin: 20px;
 }
 .hebergements-marseille {
   margin: 1rem;
+}
+.hebergements-marseille p{
+  font-weight: bold;
 }
 #conteneur1 {
   display: flex;
@@ -176,14 +179,17 @@ i.fas.fa-map-marker-alt {
   border-radius: 10%;
   border: solid #c5c5c5;
   background-color: white;
-  padding: 10px ;
+  padding: 5px ;
   margin: 5px 0;
   box-shadow:  0 0 16px #0000002e;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .card img {
   height: 110px;
   width: 232px;
-  border-radius:10%;
+  border-top-left-radius:20px;
+  border-top-right-radius: 20px;
   padding:5px;
   object-fit: cover;
 }
