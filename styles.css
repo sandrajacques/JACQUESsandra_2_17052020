@@ -1,3 +1,4 @@
+  
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
@@ -370,24 +371,22 @@ footer {
 
 @media (min-width: 376px) and (max-width: 900px) {
 
-  .populaires {
-    order: 1;
-    display: flex;
-    flex-direction: row;
-  
-  }
-  .hebergements{
-    width: 100%;
-    flex-wrap: nowrap;
-  }
-
   .activites-grid {
-    grid-template-columns: 3fr;
+    grid-template-columns: 2fr;
     grid-template-rows: auto;
     grid-template-areas:
     'c1 c2 c3 '
     'c4 c5 c6 ';
   }
+  .bloc1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside,.populaires{
+    flex-direction: row;
+  }
+  
   .card-populaires{
     width: 325px;
     height: 145px;
@@ -402,8 +401,8 @@ footer {
     height: 135px;
   }
 }
-
-@media screen and (max-width: 375px) {
+/*version mobile*/
+@media (max-width: 375px) {
   main{
     margin:0;
   }
@@ -414,6 +413,7 @@ footer {
   nav {
     height: auto;
   }
+
   .titre-filtres {
     width: 370px;
   }
@@ -422,6 +422,7 @@ footer {
   }
   .menu1{
     flex-wrap: wrap;
+    
   }
   .inscription{
     order: 1;
@@ -466,24 +467,33 @@ footer {
   #text-recherche{
     display: none;
   }
+  .hebergements{
+    height: auto;
+    order: 2;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 0;
+  }
   .card{
     width: 325px;
   }
+  .populaires{
+    order: 1;
+    margin:0;
+  }
   .card-populaires{
-    width: 100%;
+    width: 325px !important;
     height: 145px;
     margin: 5px;
   }
-  .bloc1, .hebergements, .populaires{
-   margin: 0;
-  }
   .bloc1{
     flex-wrap: wrap;
-    flex-direction: column-reverse;
-    box-sizing: border-box;
+    margin: 0;
   }
-  .hebergements{
-    background-color: transparent;
+  .card img{
+    width: 97%;
   }
   .activites-grid {
     grid-template-columns: 1fr;
