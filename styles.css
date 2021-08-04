@@ -250,6 +250,7 @@ figcaption{
 .activites{
   margin: 30px 20px;
   overflow: hidden;
+  
 }
 .activites-grid {
   display: grid;
@@ -270,6 +271,8 @@ figcaption{
   height: 445px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
+  box-shadow:  0 0 16px #0000002e;
+  
 }
 #card1 img {
   width: 300px;
@@ -277,7 +280,7 @@ figcaption{
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   object-fit: cover;
-  box-shadow:  0 0 16px #0000002e;
+  
 }
 #card2 {
   grid-area: c2;
@@ -285,13 +288,14 @@ figcaption{
   height: 237px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
+  box-shadow:  0 0 16px #0000002e;
 }
 #card2 img {
   width: 260px;
   height: 185px;
   border-radius: 5%;
   object-fit: cover;
-  box-shadow:  0 0 16px #0000002e;
+  
 }
 #card3 {
   grid-area: c3;
@@ -299,6 +303,7 @@ figcaption{
   height: 162px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
+  box-shadow:  0 0 16px #0000002e;
 }
 #card3 img {
   width: 260px;
@@ -313,6 +318,7 @@ figcaption{
   height: 446px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
+  box-shadow:  0 0 16px #0000002e;
 }
 #card4 img {
   grid-area: c4;
@@ -328,6 +334,7 @@ figcaption{
   height: 195px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
+  box-shadow:  0 0 16px #0000002e;
 }
 #card5 img {
   grid-area: c5;
@@ -343,6 +350,7 @@ figcaption{
   height: 195px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
+  box-shadow:  0 0 16px #0000002e;
 }
 #card6 img {
   grid-area: c6;
@@ -429,7 +437,8 @@ footer {
     padding: 0;
     margin: 0;
     margin-top: 37px;
-    margin-left: 54%;
+    margin-left: 49%;
+    margin-right: 15px;
   }
   .menu {
     order: 2;
@@ -495,6 +504,10 @@ footer {
   .card img{
     width: 97%;
   }
+  .activites{
+    background-color: white;
+    
+  }
   .activites-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -510,6 +523,7 @@ footer {
   #card1, #card2, #card3, #card4, #card5, #card6{
     width: 325px;
     height: 195px;
+    margin-bottom: 20px;
   }
   #card1 img, #card2 img, #card3 img, #card4 img, #card5 img, #card6 img{
     width: 100%;
