@@ -384,17 +384,22 @@ footer {
 
 
 @media (min-width: 376px) and (max-width: 768px) {
-
+body{
+  width: vw;
+}
   main{
     margin: 0;
+    width: 100%;
   }
   .hebergements{
     margin: 0;
-    width: 637px;
+    width: 100%;
     height: auto;
+    padding: 0px 70px 0px 70px;
   }
   .activites{
     margin: 10px;
+    padding: 0px 50px 0px 50px;
   }
   .activites-grid {
     grid-template-columns: 2fr;
@@ -404,19 +409,20 @@ footer {
     'c3 c4  '
     'c5 c6 ';
     margin: 0;
-    width: 637px;
+    width: 100%;
     height: auto;
   }
   .bloc1{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
   }
   
   aside,.populaires{
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    width: 637px;
+    width: 100%;
     height: auto;
     margin-top: 20px;
   }
