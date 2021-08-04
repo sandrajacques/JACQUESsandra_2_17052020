@@ -383,14 +383,29 @@ footer {
 }
 
 
-@media (min-width: 376px) and (max-width: 900px) {
+@media (min-width: 376px) and (max-width: 768px) {
 
+  main{
+    margin: 0;
+  }
+  .hebergements{
+    margin: 0;
+    width: 637px;
+    height: auto;
+  }
+  .activites{
+    margin: 10px;
+  }
   .activites-grid {
     grid-template-columns: 2fr;
     grid-template-rows: auto;
     grid-template-areas:
-    'c1 c2 c3 '
-    'c4 c5 c6 ';
+    'c1 c2  '
+    'c3 c4  '
+    'c5 c6 ';
+    margin: 0;
+    width: 637px;
+    height: auto;
   }
   .bloc1{
     display: flex;
@@ -398,7 +413,12 @@ footer {
   }
   
   aside,.populaires{
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 637px;
+    height: auto;
+    margin-top: 20px;
   }
   
   .card-populaires{
@@ -407,13 +427,26 @@ footer {
     margin: 5px;
   }
   #card1, #card2, #card3, #card4, #card5, #card6{
-    width: 325px;
+    width: 300px;
     height: 195px;
+    margin-bottom: 15px;
   }
   #card1 img, #card2 img, #card3 img, #card4 img, #card5 img, #card6 img{
     width: 100%;
     height: 135px;
   }
+  footer{
+width: 100%;
+height: auto;
+flex-wrap: wrap;
+  }
+  .menu{
+    margin-left: 24%;
+  }
+  .titre, .localite, .info{
+    margin-left: 15px;
+  }
+  
 }
 /*version mobile*/
 @media (max-width: 375px) {
