@@ -1,4 +1,6 @@
-  
+  * {
+    box-sizing: border-box;
+  }
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
@@ -11,7 +13,7 @@ margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 55%;
+  margin-left: 65%;
 }
 .accueil{
   display: flex;
@@ -269,12 +271,12 @@ figcaption{
     'c1 c3 c4 c6'
     'c1 c3 c4 c6';
   width: 1342px;
+  grid-row-gap: 30px;
 }
 
 #card1 {
   grid-area: c1;
   width: 300px;
-  height: 445px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
   box-shadow:  0 0 16px #0000002e;
@@ -290,38 +292,37 @@ figcaption{
 }
 #card2 {
   grid-area: c2;
-  width: 260px;
-  height: 237px;
+  width:300px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
   box-shadow:  0 0 16px #0000002e;
 }
 #card2 img {
-  width: 260px;
+  width: 300px;
   height: 185px;
-  border-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   object-fit: cover;
   
 }
 #card3 {
   grid-area: c3;
-  width: 260px;
-  height: 162px;
+  width: 300px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
   box-shadow:  0 0 16px #0000002e;
 }
 #card3 img {
-  width: 260px;
+  width: 300px;
   height: 110px;
-  border-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   object-fit: cover;
   box-shadow:  0 0 16px #0000002e;
 }
 #card4 {
   grid-area: c4;
   width: 300px;
-  height: 446px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
   box-shadow:  0 0 16px #0000002e;
@@ -330,39 +331,40 @@ figcaption{
   grid-area: c4;
   width: 300px;
   height: 386px;
-  border-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   object-fit: cover;
   box-shadow:  0 0 16px #0000002e;
 }
 #card5 {
   grid-area: c5;
-  width: 302px;
-  height: 195px;
+  width: 300px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
   box-shadow:  0 0 16px #0000002e;
 }
 #card5 img {
   grid-area: c5;
-  width: 302px;
+  width: 300px;
   height: 139px;
-  border-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   object-fit: cover;
   box-shadow:  0 0 16px #0000002e;
 }
 #card6 {
   grid-area: c6;
-  width: 302px;
-  height: 195px;
+  width: 300px;
   border-radius: 6%;
   border:solid 1px #f2f2f2;
   box-shadow:  0 0 16px #0000002e;
 }
 #card6 img {
   grid-area: c6;
-  width: 302px;
+  width: 300px;
   height: 139px;
-  border-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   object-fit: cover;
   box-shadow:  0 0 16px #0000002e;
 }
@@ -374,11 +376,9 @@ figcaption{
 footer {
   background-color: #f2f2f2;
   width: 1440px;
-  height: 130px;
   padding-top: 30px;
   padding: 40px 50px 50px;
   display: flex;
-  flex-flow: column wrap;
   justify-content: space-between;
 }
 
@@ -447,7 +447,7 @@ height: auto;
 flex-wrap: wrap;
   }
   .menu{
-    margin-left: 24%;
+    margin-left: 39%;
   }
   .titre, .localite, .info{
     margin-left: 15px;
@@ -574,7 +574,7 @@ flex-wrap: wrap;
     width: 100%;
     height: 135px;
   }
-  #pied-de-page{
+  footer{
     width: 100%;
     display: flex;
     flex-direction: column;
