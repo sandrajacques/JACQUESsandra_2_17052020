@@ -102,7 +102,13 @@ i.fas.fa-map-marker-alt {
   margin: 1rem;
   border: solid #f2f2f2;
   border-radius: 2rem;
+
 }
+.filtre:hover{
+  font-size: 150%;
+  box-shadow: 0 0 40px rgba(33, 33, 33,.2);
+}
+
 .fas {
   background-color: #cadded;
   border-radius: 50%;
