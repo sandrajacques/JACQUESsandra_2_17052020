@@ -49,7 +49,6 @@ nav{
 .lienActif {
   text-decoration: none;
   color: black;
- 
 }
 .inscription{
   font-weight: bold;
@@ -68,7 +67,6 @@ button {
 #text-recherche{
   display: block;
 }
-
 .colorBleu{
   color:#0065fc;
 }
@@ -85,7 +83,6 @@ input {
 }
 .fa-search{
   display: none;
- 
 }
 i.fas.fa-map-marker-alt {
   background-color: #eeeeee;
@@ -384,9 +381,7 @@ footer {
 
 
 @media (min-width: 376px) and (max-width: 768px) {
-body{
-  width: vw;
-}
+
   main{
     margin: 0;
     width: 100%;
