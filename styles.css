@@ -25,19 +25,15 @@ margin: 30px;
   text-align: center;
   padding-top: 36px;
 }
-
 .menu1:hover {
   border-top: solid 3px #0065fc;
 }
-
 .menu1 .lienActif {
   padding-top: 20px;
 }
-
 .menu1 .lienActif {
   cursor: pointer;
 }
-
 nav{
   height: 100px;
 }
@@ -145,10 +141,10 @@ i.fas.fa-map-marker-alt {
   border-radius: 3%;
   margin: 20px;
 }
-.hebergements-marseille {
+#hebergements-marseille {
   margin: 1rem;
 }
-.hebergements-marseille p{
+#hebergements-marseille p{
   font-weight: bold;
 }
 #conteneur1 {
@@ -221,7 +217,7 @@ i.fas.fa-map-marker-alt {
   object-fit: cover;
   box-shadow:  0 0 16px #0000002e;
 }
-figcaption{
+.figcaption{
   padding: 10px;
   background-color: white;
 }
@@ -252,7 +248,7 @@ figcaption{
   padding: 0em;
 }
 /*activite à marseille*/
-.activites{
+#activites{
   margin: 30px 20px;
   overflow: hidden;
   
@@ -392,7 +388,7 @@ footer {
     height: auto;
     padding: 0px 70px 0px 70px;
   }
-  .activites{
+  #activites{
     margin: 10px;
     padding: 0px 50px 0px 50px;
   }
@@ -461,7 +457,6 @@ flex-wrap: wrap;
   nav {
     height: auto;
   }
-
   .titre-filtres {
     width: 370px;
   }
@@ -470,7 +465,6 @@ flex-wrap: wrap;
   }
   .menu1{
     flex-wrap: wrap;
-    
   }
   .inscription{
     order: 1;
@@ -544,7 +538,7 @@ flex-wrap: wrap;
   .card img{
     width: 97%;
   }
-  .activites{
+  #activites{
     background-color: white;
     
   }
